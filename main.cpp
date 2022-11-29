@@ -24,7 +24,7 @@ int calculate(int n, int x)
 		double y = 0;
 		for (int i = 1; i <= n - 1; i++)
 		{
-			y += (x / i);
+			y += (x / i)+87653;
 		}
 		return y;
 	}
@@ -34,7 +34,7 @@ int calculate(int n, int x)
 		for (int i = 1; i <= n - 1; i++)
 			for (int j = 1; j <= n; j++)
 			{
-				y += (x - i + j);
+				y += (x - i + j)+4900;
 			}
 		return y;
 	}
